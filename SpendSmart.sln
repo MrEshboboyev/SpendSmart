@@ -12,9 +12,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45A5A915-856
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{98CF1F41-505C-4C6A-9318-701E1426B9A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A9D09B35-EEB4-4F69-ADBF-5F85990C46CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Common.Primitives", "src\Common\SpendSmart.Common.Primitives\SpendSmart.Common.Primitives.csproj", "{FAACE907-0BE5-44BF-8B8F-9348B880473D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAACE907-0BE5-44BF-8B8F-9348B880473D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAACE907-0BE5-44BF-8B8F-9348B880473D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAACE907-0BE5-44BF-8B8F-9348B880473D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAACE907-0BE5-44BF-8B8F-9348B880473D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9D09B35-EEB4-4F69-ADBF-5F85990C46CB} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
+		{FAACE907-0BE5-44BF-8B8F-9348B880473D} = {A9D09B35-EEB4-4F69-ADBF-5F85990C46CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B96FAF54-42E6-4D68-83FD-7BA3E84BE140}
