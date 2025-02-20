@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
@@ -22,6 +22,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{85856C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Domain", "src\Domain\SpendSmart.Domain\SpendSmart.Domain.csproj", "{924EE01F-1A14-4664-A1A6-76720B392EC1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9D8D13E9-6893-41BC-A6F5-6C870051743D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Application.Abstractions", "src\Application\SpendSmart.Application.Abstractions\SpendSmart.Application.Abstractions.csproj", "{72955C54-101B-4228-BAA9-A155E534057F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Application.Contracts", "src\Application\SpendSmart.Application.Contracts\SpendSmart.Application.Contracts.csproj", "{AF125757-5D67-47F8-85DF-2F51A9B89851}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +46,14 @@ Global
 		{924EE01F-1A14-4664-A1A6-76720B392EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{924EE01F-1A14-4664-A1A6-76720B392EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{924EE01F-1A14-4664-A1A6-76720B392EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72955C54-101B-4228-BAA9-A155E534057F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72955C54-101B-4228-BAA9-A155E534057F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72955C54-101B-4228-BAA9-A155E534057F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72955C54-101B-4228-BAA9-A155E534057F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF125757-5D67-47F8-85DF-2F51A9B89851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF125757-5D67-47F8-85DF-2F51A9B89851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF125757-5D67-47F8-85DF-2F51A9B89851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF125757-5D67-47F8-85DF-2F51A9B89851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +64,9 @@ Global
 		{B1DE4B4F-0CBD-49DC-ACB7-F10C2BEB0460} = {A9D09B35-EEB4-4F69-ADBF-5F85990C46CB}
 		{85856CB4-6CAD-4BD3-881B-2A2E2F4DDDB7} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
 		{924EE01F-1A14-4664-A1A6-76720B392EC1} = {85856CB4-6CAD-4BD3-881B-2A2E2F4DDDB7}
+		{9D8D13E9-6893-41BC-A6F5-6C870051743D} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
+		{72955C54-101B-4228-BAA9-A155E534057F} = {9D8D13E9-6893-41BC-A6F5-6C870051743D}
+		{AF125757-5D67-47F8-85DF-2F51A9B89851} = {9D8D13E9-6893-41BC-A6F5-6C870051743D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B96FAF54-42E6-4D68-83FD-7BA3E84BE140}
