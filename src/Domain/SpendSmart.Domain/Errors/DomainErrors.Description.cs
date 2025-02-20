@@ -1,6 +1,6 @@
 ﻿using SpendSmart.Common.Primitives.Errors;
 
-namespace Expensely.Domain.Errors;
+namespace SpendSmart.Domain.Errors;
 
 /// <summary>
 /// Contains the domain errors.
