@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Common.Primitive
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Common.Abstractions", "src\Common\SpendSmart.Common.Abstractions\SpendSmart.Common.Abstractions.csproj", "{B1DE4B4F-0CBD-49DC-ACB7-F10C2BEB0460}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{85856CB4-6CAD-4BD3-881B-2A2E2F4DDDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Domain", "src\Domain\SpendSmart.Domain\SpendSmart.Domain.csproj", "{924EE01F-1A14-4664-A1A6-76720B392EC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +36,10 @@ Global
 		{B1DE4B4F-0CBD-49DC-ACB7-F10C2BEB0460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1DE4B4F-0CBD-49DC-ACB7-F10C2BEB0460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1DE4B4F-0CBD-49DC-ACB7-F10C2BEB0460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924EE01F-1A14-4664-A1A6-76720B392EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924EE01F-1A14-4664-A1A6-76720B392EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924EE01F-1A14-4664-A1A6-76720B392EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924EE01F-1A14-4664-A1A6-76720B392EC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +48,8 @@ Global
 		{A9D09B35-EEB4-4F69-ADBF-5F85990C46CB} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
 		{FAACE907-0BE5-44BF-8B8F-9348B880473D} = {A9D09B35-EEB4-4F69-ADBF-5F85990C46CB}
 		{B1DE4B4F-0CBD-49DC-ACB7-F10C2BEB0460} = {A9D09B35-EEB4-4F69-ADBF-5F85990C46CB}
+		{85856CB4-6CAD-4BD3-881B-2A2E2F4DDDB7} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
+		{924EE01F-1A14-4664-A1A6-76720B392EC1} = {85856CB4-6CAD-4BD3-881B-2A2E2F4DDDB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B96FAF54-42E6-4D68-83FD-7BA3E84BE140}
