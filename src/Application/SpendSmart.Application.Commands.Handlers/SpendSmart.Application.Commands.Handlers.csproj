@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TimeZoneConverter" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpendSmart.Application.Abstractions\SpendSmart.Application.Abstractions.csproj" />
+    <ProjectReference Include="..\SpendSmart.Application.Commands\SpendSmart.Application.Commands.csproj" />
+  </ItemGroup>
+
+</Project>

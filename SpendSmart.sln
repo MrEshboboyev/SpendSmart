@@ -28,6 +28,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Application.Abst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Application.Contracts", "src\Application\SpendSmart.Application.Contracts\SpendSmart.Application.Contracts.csproj", "{AF125757-5D67-47F8-85DF-2F51A9B89851}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Application.Commands", "src\Application\SpendSmart.Application.Commands\SpendSmart.Application.Commands.csproj", "{0509B7F7-BD40-4054-BB70-8338E538837E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Application.Commands.Handlers", "src\Application\SpendSmart.Application.Commands.Handlers\SpendSmart.Application.Commands.Handlers.csproj", "{5C2AA696-90D7-4A58-9CCC-77828E1CEC89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,14 @@ Global
 		{AF125757-5D67-47F8-85DF-2F51A9B89851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF125757-5D67-47F8-85DF-2F51A9B89851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF125757-5D67-47F8-85DF-2F51A9B89851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0509B7F7-BD40-4054-BB70-8338E538837E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0509B7F7-BD40-4054-BB70-8338E538837E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0509B7F7-BD40-4054-BB70-8338E538837E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0509B7F7-BD40-4054-BB70-8338E538837E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2AA696-90D7-4A58-9CCC-77828E1CEC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2AA696-90D7-4A58-9CCC-77828E1CEC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2AA696-90D7-4A58-9CCC-77828E1CEC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2AA696-90D7-4A58-9CCC-77828E1CEC89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +79,8 @@ Global
 		{9D8D13E9-6893-41BC-A6F5-6C870051743D} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
 		{72955C54-101B-4228-BAA9-A155E534057F} = {9D8D13E9-6893-41BC-A6F5-6C870051743D}
 		{AF125757-5D67-47F8-85DF-2F51A9B89851} = {9D8D13E9-6893-41BC-A6F5-6C870051743D}
+		{0509B7F7-BD40-4054-BB70-8338E538837E} = {9D8D13E9-6893-41BC-A6F5-6C870051743D}
+		{5C2AA696-90D7-4A58-9CCC-77828E1CEC89} = {9D8D13E9-6893-41BC-A6F5-6C870051743D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B96FAF54-42E6-4D68-83FD-7BA3E84BE140}
