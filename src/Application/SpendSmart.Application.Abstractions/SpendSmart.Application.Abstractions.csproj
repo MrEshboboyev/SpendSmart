@@ -6,7 +6,13 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" />
+    <PackageReference Include="MediatR" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\SpendSmart.Common.Abstractions\SpendSmart.Common.Abstractions.csproj" />
+    <ProjectReference Include="..\SpendSmart.Application.Contracts\SpendSmart.Application.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
