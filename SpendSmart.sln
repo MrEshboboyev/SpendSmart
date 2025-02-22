@@ -44,6 +44,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackgroundTasks", "Backgrou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.BackgroundTasks", "src\BackgroundTasks\SpendSmart.BackgroundTasks\SpendSmart.BackgroundTasks.csproj", "{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{ADA13674-711B-4016-B97C-E606A84385FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Persistence", "src\Persistence\SpendSmart.Persistence\SpendSmart.Persistence.csproj", "{271AAB86-6219-4576-B7E4-5BF06FB390C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +102,10 @@ Global
 		{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271AAB86-6219-4576-B7E4-5BF06FB390C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271AAB86-6219-4576-B7E4-5BF06FB390C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271AAB86-6219-4576-B7E4-5BF06FB390C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271AAB86-6219-4576-B7E4-5BF06FB390C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +127,8 @@ Global
 		{71CB2CD5-6FE9-45DA-80E2-5CDA1EE5EEA1} = {9D8D13E9-6893-41BC-A6F5-6C870051743D}
 		{BB62767C-095C-4D80-85E0-695FD226AE4E} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
 		{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E} = {BB62767C-095C-4D80-85E0-695FD226AE4E}
+		{ADA13674-711B-4016-B97C-E606A84385FD} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
+		{271AAB86-6219-4576-B7E4-5BF06FB390C0} = {ADA13674-711B-4016-B97C-E606A84385FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B96FAF54-42E6-4D68-83FD-7BA3E84BE140}
