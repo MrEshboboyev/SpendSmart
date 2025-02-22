@@ -40,6 +40,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Application.Quer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Application.Events.Handlers", "src\Application\SpendSmart.Application.Events.Handlers\SpendSmart.Application.Events.Handlers.csproj", "{71CB2CD5-6FE9-45DA-80E2-5CDA1EE5EEA1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackgroundTasks", "BackgroundTasks", "{BB62767C-095C-4D80-85E0-695FD226AE4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.BackgroundTasks", "src\BackgroundTasks\SpendSmart.BackgroundTasks\SpendSmart.BackgroundTasks.csproj", "{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,6 +94,10 @@ Global
 		{71CB2CD5-6FE9-45DA-80E2-5CDA1EE5EEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71CB2CD5-6FE9-45DA-80E2-5CDA1EE5EEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71CB2CD5-6FE9-45DA-80E2-5CDA1EE5EEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +117,8 @@ Global
 		{9FAB802C-E238-4E3B-BDE4-8B9F9A983275} = {9D8D13E9-6893-41BC-A6F5-6C870051743D}
 		{2BC18F04-6FC5-4609-B994-64A21D6FE8CD} = {9D8D13E9-6893-41BC-A6F5-6C870051743D}
 		{71CB2CD5-6FE9-45DA-80E2-5CDA1EE5EEA1} = {9D8D13E9-6893-41BC-A6F5-6C870051743D}
+		{BB62767C-095C-4D80-85E0-695FD226AE4E} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
+		{10A4E252-8EE7-4DF1-9D5D-4079BCC6BD3E} = {BB62767C-095C-4D80-85E0-695FD226AE4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B96FAF54-42E6-4D68-83FD-7BA3E84BE140}
