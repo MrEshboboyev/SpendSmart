@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\SpendSmart.Common.Abstractions\SpendSmart.Common.Abstractions.csproj" />
+    <ProjectReference Include="..\SpendSmart.Application.Contracts\SpendSmart.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
