@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" />
+    <PackageReference Include="Serilog.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\SpendSmart.Application.Commands\SpendSmart.Application.Commands.csproj" />
+    <ProjectReference Include="..\..\Application\SpendSmart.Application.Queries\SpendSmart.Application.Queries.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SpendSmart.Authorization\SpendSmart.Authorization.csproj" />
+  </ItemGroup>
+
+</Project>

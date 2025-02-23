@@ -56,6 +56,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Infrastructure",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Notification", "src\Infrastructure\SpendSmart.Notification\SpendSmart.Notification.csproj", "{F4520507-3D20-42EE-A44B-85D91DCC4BE6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8CE008B8-7070-4A16-A3AE-F81B87939A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Presentation.Api", "src\Presentation\SpendSmart.Presentation.Api\SpendSmart.Presentation.Api.csproj", "{0AB8B78B-05C8-42B0-967A-4CDBC2D83063}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,6 +130,10 @@ Global
 		{F4520507-3D20-42EE-A44B-85D91DCC4BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4520507-3D20-42EE-A44B-85D91DCC4BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4520507-3D20-42EE-A44B-85D91DCC4BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB8B78B-05C8-42B0-967A-4CDBC2D83063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB8B78B-05C8-42B0-967A-4CDBC2D83063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB8B78B-05C8-42B0-967A-4CDBC2D83063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB8B78B-05C8-42B0-967A-4CDBC2D83063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +161,8 @@ Global
 		{6BAFB864-1AC1-44BD-B111-76F53995A5F6} = {5F35BB3C-5C2D-4D95-8CDE-71DE9A21CD6A}
 		{A7E4D14B-9F5E-4944-8C2B-AB6F109F5164} = {5F35BB3C-5C2D-4D95-8CDE-71DE9A21CD6A}
 		{F4520507-3D20-42EE-A44B-85D91DCC4BE6} = {5F35BB3C-5C2D-4D95-8CDE-71DE9A21CD6A}
+		{8CE008B8-7070-4A16-A3AE-F81B87939A44} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
+		{0AB8B78B-05C8-42B0-967A-4CDBC2D83063} = {8CE008B8-7070-4A16-A3AE-F81B87939A44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B96FAF54-42E6-4D68-83FD-7BA3E84BE140}
