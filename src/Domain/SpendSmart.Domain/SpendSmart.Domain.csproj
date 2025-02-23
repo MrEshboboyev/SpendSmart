@@ -12,4 +12,10 @@
     <ProjectReference Include="..\..\Common\SpendSmart.Common.Primitives\SpendSmart.Common.Primitives.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>SpendSmart.Domain.UnitTests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+
 </Project>
