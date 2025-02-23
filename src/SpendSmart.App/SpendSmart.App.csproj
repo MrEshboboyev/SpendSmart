@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <UserSecretsId>af709a11-764b-4450-976e-19acf8453bfa</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="Scrutor" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\SpendSmart.Application.Commands.Handlers\SpendSmart.Application.Commands.Handlers.csproj" />
+    <ProjectReference Include="..\Application\SpendSmart.Application.Events.Handlers\SpendSmart.Application.Events.Handlers.csproj" />
+    <ProjectReference Include="..\Application\SpendSmart.Application.Queries.Handlers\SpendSmart.Application.Queries.Handlers.csproj" />
+    <ProjectReference Include="..\BackgroundTasks\SpendSmart.BackgroundTasks\SpendSmart.BackgroundTasks.csproj" />
+    <ProjectReference Include="..\Infrastructure\SpendSmart.Infrastructure\SpendSmart.Infrastructure.csproj" />
+    <ProjectReference Include="..\Infrastructure\SpendSmart.Notification\SpendSmart.Notification.csproj" />
+    <ProjectReference Include="..\Persistence\SpendSmart.Persistence\SpendSmart.Persistence.csproj" />
+    <ProjectReference Include="..\Presentation\SpendSmart.Presentation.Api\SpendSmart.Presentation.Api.csproj" />
+  </ItemGroup>
+
+</Project>
