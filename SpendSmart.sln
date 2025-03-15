@@ -64,6 +64,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6EA4E7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.Domain.UnitTests", "tests\Domain\SpendSmart.Domain.UnitTests\SpendSmart.Domain.UnitTests.csproj", "{038A0FED-47CA-4E95-B5A6-28E5DF7CEE24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpendSmart.App", "src\SpendSmart.App\SpendSmart.App.csproj", "{224D46DE-E4DA-FD35-617C-A53EE9B7E064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -142,6 +144,10 @@ Global
 		{038A0FED-47CA-4E95-B5A6-28E5DF7CEE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{038A0FED-47CA-4E95-B5A6-28E5DF7CEE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{038A0FED-47CA-4E95-B5A6-28E5DF7CEE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224D46DE-E4DA-FD35-617C-A53EE9B7E064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224D46DE-E4DA-FD35-617C-A53EE9B7E064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224D46DE-E4DA-FD35-617C-A53EE9B7E064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224D46DE-E4DA-FD35-617C-A53EE9B7E064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,6 +179,7 @@ Global
 		{0AB8B78B-05C8-42B0-967A-4CDBC2D83063} = {8CE008B8-7070-4A16-A3AE-F81B87939A44}
 		{6EA4E7C9-BB0D-4898-81EE-668A00B556F0} = {98CF1F41-505C-4C6A-9318-701E1426B9A7}
 		{038A0FED-47CA-4E95-B5A6-28E5DF7CEE24} = {6EA4E7C9-BB0D-4898-81EE-668A00B556F0}
+		{224D46DE-E4DA-FD35-617C-A53EE9B7E064} = {45A5A915-8563-4F9A-9962-8E721EE9F5D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B96FAF54-42E6-4D68-83FD-7BA3E84BE140}
