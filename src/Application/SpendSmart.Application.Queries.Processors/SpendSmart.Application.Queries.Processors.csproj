@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
+	  <AssemblyName>SpendSmart.Application.Queries.Processors</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

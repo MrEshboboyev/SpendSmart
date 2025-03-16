@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 using SpendSmart.App.Extensions;
+using System;
 using System.IO;
 using System.Reflection;
 
@@ -15,9 +15,6 @@ builder.Host.UseSerilog((context, services, configuration) => configuration
     .ReadFrom.Services(services)
     .Enrich.FromLogContext()
     .WriteTo.Console()); // Ensure logs are written to the console
-
-// Add Swagger services
-builder.Services.AddSwaggerGen();
 
 // Configure app configuration
 builder.Configuration

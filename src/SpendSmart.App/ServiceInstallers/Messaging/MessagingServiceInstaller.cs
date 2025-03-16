@@ -5,6 +5,7 @@ using SpendSmart.Application.Abstractions.Behaviors;
 using SpendSmart.Application.Commands.Handlers;
 using SpendSmart.Application.Events.Handlers;
 using SpendSmart.Application.Queries.Handlers;
+using SpendSmart.Application.Queries.Processors.Transactions;
 using SpendSmart.Domain.Abstractions;
 using System;
 
@@ -29,7 +30,7 @@ public sealed class MessagingServiceInstaller : IServiceInstaller
 
         services.AddScoped(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
-        AddEventHandlers(services);
+        AddEventHandlers(services); 
     }
 
     private static void AddEventHandlers(IServiceCollection services) =>
